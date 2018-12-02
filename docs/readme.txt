@@ -14,3 +14,5 @@ npm test
 
 Configuration changes:
 Any changes in configuration for the environment need to be done in src/config/config.json
+
+Note : THe TTL for the cache items and max items in the cache can also be set in the configuration.
