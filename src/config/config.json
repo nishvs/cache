@@ -1,0 +1,50 @@
+{
+    "development": {
+        "port": 3001,
+        "db": {
+            "db_name": "challenge",
+            "servers": [{
+                "host": "127.0.0.1",
+                "port": "27017"
+            }],
+            "db_options": {
+                "connectTimeoutMS": 30000,
+                "useNewUrlParser": true
+            }
+        },
+        "cache_limit":10,
+        "cache_item_time_limit":1
+    },
+    "test": {
+        "port": 3001,
+        "db": {
+            "db_name": "challenge",
+            "servers": [{
+                "host": "127.0.0.1",
+                "port": "27017"
+            }],
+            "db_options": {
+                "connectTimeoutMS": 30000,
+                "useNewUrlParser": true
+            }
+        },
+        "cache_limit":2,
+        "cache_item_time_limit":1
+    },
+    "production": {
+        "port": 3001,
+        "db": {
+            "db_name": "challenge",
+            "servers": [{
+                "host": "127.0.0.1",
+                "port": "27017"
+            }],
+            "db_options": {
+                "connectTimeoutMS": 30000,
+                "useNewUrlParser": true
+            }
+        },
+        "cache_limit":2,
+        "cache_item_time_limit":1
+    }
+}

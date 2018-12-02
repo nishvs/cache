@@ -1,0 +1,25 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Technical challenge task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "NITISH KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "bunyan": "^1.8.12",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "mongoose": "^5.3.14"
+  },
+  "devDependencies": {
+    "jasmine-node": "^2.0.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "request": "^2.88.0"
+  }
+}
