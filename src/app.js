@@ -21,6 +21,8 @@ if(cluster.isWorker) {
 	clusterid = cluster.worker.id;
 }
 
+//changes
+
 if(config.isProduction) {
 	log = bunyan.createLogger({name: 'nodeapp', clusterid: clusterid});
 } else {
